@@ -4,11 +4,22 @@ import { motion } from 'framer-motion'
 import Herobanner from './Herobanner'
 import logo from '../assets/heroimg.jpg'
 
+
+
+
 function Homepage() {
+
+  const handle =() => {
+    alert('msg got')
+
+  }
   return (
     <>
+
+
 <div className="pt-14">
 <Herobanner />
+    <button className="bg-red-300" onClick={handle}>Button</button>
       <div className="content mt-30 bg-cover bg-fixed "
         style={{
           backgroundImage: `url(${logo})`,
