@@ -41,7 +41,7 @@ function Header() {
         </ul>
         <Outlet />
       </nav>
-                      <div className="mobileMenuItems md:hidden max-md:flex ">
+                      <div className="mobileMenuItems md:hidden  ">
                     {mobileMenu ? (
                         <VscChromeClose onClick={() => setMobileMenu(false)} />
                     ) : (
